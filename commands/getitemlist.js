@@ -3,7 +3,7 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
     msg.edit({embed: {
             color: 3447003,
             author: {
-                name: 'Zagec',
+                name: client.user.username,
                 icon_url: client.user.avatarURL()
             },
             title: "Result",
@@ -12,7 +12,7 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
             fields:[],
             footer: {
                 icon_url: client.user.avatarURL(),
-                text: "© Zagec"
+                text: "© "+client.user.username
             }
         }})
 };
