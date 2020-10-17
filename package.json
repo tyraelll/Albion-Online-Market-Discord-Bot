@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
   "dependencies": {
+    "axios": "^0.16.2",
     "better-sqlite3": "^6.0.1",
     "chalk": "^4.0.0",
     "discord.js": "^12.3.1",
